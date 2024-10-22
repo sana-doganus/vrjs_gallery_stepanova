@@ -11,7 +11,7 @@ AFRAME.registerComponent('info-panel', {
       karigurashiButton: {
         title: 'Fire^2 (2021)',
         imgEl: document.querySelector('#karigurashiMovieImage'),
-        description: 'Based on the 1952 novel The Borrowers by Mary Norton, an English author of children\'s books, about a family of tiny people who live secretly in the walls and floors of a typical household, borrowing items from humans to survive.'
+        description: 'Based on the 1952 novel The Borrowers by Mary Norton, an English author of children\'s books'
       },
       kazetachinuButton: {
         title: 'The Cycle of Life and Other Meaningful BS (2020)',
