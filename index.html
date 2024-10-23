@@ -9,7 +9,7 @@
     <script src="info-message.js"></script>
     <script src="highlight.js"></script>
     <script src="info-panel.js"></script>
-   </head>
+ </head>
   <body>
     <a-scene
       background="color: #212"
@@ -18,24 +18,15 @@
       info-message="htmlSrc: #messageText">
       <a-assets>
         <a-asset-item id="messageText" src="message.html"></a-asset-item>
-        <!--
-          Image source: http://www.ghibli.jp/works/pic1/#frame&gid=1&pid=1
-          Image author: Studio Ghibli
-        -->
-        <img id="pic1" src="https://cdn.aframe.io/examples/ui/pic1.jpg" crossorigin="anonymous"/>
-        <img id="pic1Poster" src="https://cdn.aframe.io/examples/ui/pic1Poster.jpg" crossorigin="anonymous"/>
-        <!--
-          Image source: http://www.ghibli.jp/works/pic2/#frame&gid=1&pid=36
-          Image author: Studio Ghibli
-        -->
-        <img id="pic2" src="https://cdn.aframe.io/examples/ui/pic2.jpg" crossorigin="anonymous"/>
-        <img id="pic2Poster" src="https://cdn.aframe.io/examples/ui/pic2Poster.jpg" crossorigin="anonymous"/>
-        <!--
-          Image source: http://www.ghibli.jp/works/pic2/#frame&gid=1&pid=32
-          Image author: Studio Ghibli
-        -->
-        <img id="pic2" src="https://cdn.aframe.io/examples/ui/pic2.jpg" crossorigin="anonymous"/>
-        <img id="pic2Poster" src="https://cdn.aframe.io/examples/ui/pic2Poster.jpg" crossorigin="anonymous"/>
+     
+        <img id="pic1" src="https://sun9-77.userapi.com/impg/meXJspmp22Fm644ee7SNq9vSXC42l7xk2mAymA/LUik8GFrcZU.jpg?size=1024x554&quality=96&sign=5cd29182898900eb34d65b4dc8f2110a&type=albumjpg" crossorigin="anonymous"/>
+        <img id="pic1Poster" src="https://sun9-29.userapi.com/impg/d9Ne8ij_z-5hWEbtgEtTEZ1VyzKG0M2hXr_h2Q/W-WRR9747KQ.jpg?size=1235x1800&quality=96&sign=33f5bc6bcf11d933108f5f57f33c81f8&type=album" crossorigin="anonymous"/>
+    
+        <img id="pic2" src="https://sun9-3.userapi.com/impg/STBRhdOuo_rTmtCV83PL2zLbJxPQWdaoEIb3bA/28B5NmxcL7k.jpg?size=1024x554&quality=96&sign=23963c7da6b6f962e9f752501852e1cc&type=album" crossorigin="anonymous"/>
+        <img id="pic2Poster" src="https://sun9-1.userapi.com/impg/LI9-G3FJ0mnzHrlMLC99iEqw4qn0uwchxORUMA/aQjuSTmuxik.jpg?size=1417x1654&quality=96&sign=1535e2d4de77c00db21d6f54430a0791&type=album" crossorigin="anonymous"/>
+
+        <img id="pic3" src="https://sun9-74.userapi.com/impg/uOCfi_0h3-xG_Vy3kUgh76HtrNENHP5Hxq1Wpg/W5aF9grORAI.jpg?size=1024x554&quality=96&sign=791bf4cf53067c58f3e4d6d939d833fb&type=album" crossorigin="anonymous"/>
+        <img id="pic3Poster" src="https://sun9-53.userapi.com/impg/NJ8lK9vKM1bOpbT5PUcX1dmXRszLqiG5Kpp2uw/iIZdlTgoiRc.jpg?size=553x699&quality=96&sign=13311011dab46df4611d51f257beb3e0&type=album" crossorigin="anonymous"/>
         <a-mixin
           id="frame"
           geometry="primitive: plane; width: 0.5783552; height: 0.8192"
@@ -84,8 +75,8 @@
       <a-entity id="ui" position="0 1.6 -2.5">
         <!-- Poster menu -->
         <a-entity id="menu" highlight>
-          <a-entity id="pic2Button" position="-0.8 0 0" mixin="frame" class="raycastable menu-button">
-            <a-entity material="src: #pic2Poster;" mixin="poster"></a-entity>
+          <a-entity id="pic3Button" position="-0.8 0 0" mixin="frame" class="raycastable menu-button">
+            <a-entity material="src: #pic3Poster;" mixin="poster"></a-entity>
           </a-entity>
 
           <a-entity id="pic1Button" position="0 0 0" mixin="frame" class="raycastable menu-button">
@@ -108,7 +99,7 @@
           material="color: #333333; shader: flat; transparent: false" class="raycastable">
           <a-entity id="pic2MovieImage" mixin="movieImage" material="src: #pic2" visible="false"></a-entity>
           <a-entity id="pic1MovieImage" mixin="movieImage" material="src: #pic1" visible="false"></a-entity>
-          <a-entity id="pic2MovieImage" mixin="movieImage" material="src: #pic2" visible="false"></a-entity>
+          <a-entity id="pic3MovieImage" mixin="movieImage" material="src: #pic3" visible="false"></a-entity>
           <a-entity id="movieTitle"
             position="-0.68 -0.1 0"
             text="shader: msdf; anchor: left; width: 1.5; font: https://cdn.aframe.io/examples/ui/Viga-Regular.json; color: white; value: pic2 (2003)"></a-entity>
