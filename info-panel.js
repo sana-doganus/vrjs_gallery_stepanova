@@ -10,18 +10,18 @@ AFRAME.registerComponent('info-panel', {
     this.movieInfo = {
       karigurashiButton: {
         title: 'Fire^2 (2021)',
-        imgEl: document.querySelector('#karigurashiMovieImage'),
-        description: 'Based on the 1952 novel The Borrowers by Mary Norton, an English author of children\'s books'
+        imgEl: document.querySelector('#pic1MovieImage'),
+        description: 'Фанарт к мультфильму "Фиксики. Большой секрет"'
       },
       kazetachinuButton: {
         title: 'The Cycle of Life and Other Meaningful BS (2020)',
-        imgEl: document.querySelector('#kazetachinuMovieImage'),
-        description: 'AAA'
+        imgEl: document.querySelector('#pic2MovieImage'),
+        description: 'Оригинальная иллюстрация на тему цикличности жизни и смерти'
       },
       ponyoButton: {
         title: 'Satellite (2022)',
-        imgEl: document.querySelector('#ponyoMovieImage'),
-        description: 'I'
+        imgEl: document.querySelector('#pic3MovieImage'),
+        description: 'Фанарт к веб-комиксу "Homestuck"'
       }
     };
 
