@@ -8,17 +8,17 @@ AFRAME.registerComponent('info-panel', {
     this.movieDescriptionEl = document.querySelector('#movieDescription');
 
     this.movieInfo = {
-      karigurashiButton: {
+      pic1Button: {
         title: 'Fire^2 (2021)',
         imgEl: document.querySelector('#pic1MovieImage'),
         description: 'Фанарт к мультфильму "Фиксики. Большой секрет"'
       },
-      kazetachinuButton: {
+      pic2Button: {
         title: 'The Cycle of Life and Other Meaningful BS (2020)',
         imgEl: document.querySelector('#pic2MovieImage'),
         description: 'Оригинальная иллюстрация на тему цикличности жизни и смерти'
       },
-      ponyoButton: {
+      pic3Button: {
         title: 'Satellite (2022)',
         imgEl: document.querySelector('#pic3MovieImage'),
         description: 'Фанарт к веб-комиксу "Homestuck"'
